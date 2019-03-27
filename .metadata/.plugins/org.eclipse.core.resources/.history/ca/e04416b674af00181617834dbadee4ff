@@ -1,0 +1,47 @@
+package com.newt;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class EmployeeDAO {
+	public List<Employees> readAllEmployees() throws SQLException {
+		List<Employees> employeeList = new ArrayList<Employees>();
+		// Class.forName("com.mysql.jdbc.Driver");
+		String user = "root";
+		String password = "admin";
+		String url = "jdbc:mysql://localhost:3306/tr2";
+		Connection con = DriverManager.getConnection(url, user, password);
+		String c = "SELECT COUNT(*) AS TOTAL FROM EMPLOYEES";
+		PreparedStatement psmt1 = con.prepareStatement(c);
+		ResultSet rset1 = psmt1.executeQuery();
+		rset1.next();
+		int totalcount = rset1.getInt("TOTAL");
+		Employees[] e = new Employees[totalcount];
+
+		String selectQuery = "SELECT * FROM Employees";
+
+		PreparedStatement psmt = con.prepareStatement(selectQuery);
+
+		ResultSet rset = psmt.executeQuery();
+		List<Employees> f = null;
+		while (rset.next()) {
+			int employeeid = rset.getInt("id");
+			String first_name = rset.getString("first_name");
+			String second_name = rset.getString("second_name");
+			Date hire_date = rset.getDate("hire_date");
+			double salary = rset.getDouble("salary");
+			String department = rset.getString("department");
+			int managerid = rset.getInt("managerid");
+			f = (List<Employees>) new Employees(employeeid, first_name, second_name, hire_date, salary, department,
+					managerid);
+		}
+		return f;
+
+	}
+}

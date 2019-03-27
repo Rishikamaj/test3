@@ -1,0 +1,15 @@
+package com.newt;
+
+public class Practise {
+
+	public static void main(String[] args) {
+		int n1=78;
+		int n2=67;
+		int n3=Math.abs(n2-n1);
+		
+	System.out.println(n3);
+		
+		
+		
+
+	}}

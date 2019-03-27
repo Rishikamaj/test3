@@ -1,0 +1,32 @@
+package com.newt;
+
+import java.sql.SQLException;
+import java.util.Calendar;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Mappings {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+
+		Employees e = new Employees();
+		EmployeeDAO edao = new EmployeeDAO();
+
+		MapMethod mm = new MapMethod();
+
+		Set<Employees> set = new HashSet(employees);
+
+		Iterator<Employees> itr = set.iterator();
+		while (itr.hasNext()) {
+			Employees f = itr.next();
+			int year = mm.yearFromDate(f.hire_Date);
+
+			System.out.println(e);
+
+		}
+
+	}
+
+}
+
+

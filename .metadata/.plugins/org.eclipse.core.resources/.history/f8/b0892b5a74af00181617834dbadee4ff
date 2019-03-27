@@ -1,0 +1,21 @@
+package com.newt;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class MapMethod {
+	
+	public class MapMethods {
+	public int yearFromDate(Date hire_Date) {
+	Date hire_Date1 = null;
+	Calendar cal = Calendar.getInstance();
+	cal.setTime(hire_Date1);
+	return cal.get(Calendar.YEAR);
+
+
+}}
+
+	public int yearFromDate(Date hire_Date) {
+		
+		return 0;
+	}}

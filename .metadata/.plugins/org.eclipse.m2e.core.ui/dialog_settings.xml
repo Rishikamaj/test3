@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\eeclipseworkspace\mavenadd"/>
+			<item value="C:\Users\Rishika Majumdar\eclipse-workspace"/>
+			<item value="D:\eeclipseworkspace\apptest"/>
+			<item value="D:\eeclipseworkspace\apptest\src\com\newt\maven\AppTest.java"/>
+			<item value="D:\eeclipseworkspace\Junittesting"/>
+			<item value="D:\eeclipseworkspace\mythirddemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="apptest.apptest.mavenadd"/>
+			<item value="apptest.com.newt.testing"/>
+			<item value="apptest.mavencalc"/>
+			<item value="apptest.com.newt.mavan"/>
+			<item value="mythirddemo.com.newt.maven.deploy"/>
+			<item value="mythirddemo.com.newt.maven"/>
+			<item value="mythirddemo.com.newt"/>
+			<item value="com.newt"/>
+		</list>
+		<list key="groupId">
+			<item value="apptest"/>
+			<item value="mythirddemo"/>
+		</list>
+		<list key="artifactId">
+			<item value="apptest.mavenadd"/>
+			<item value="com.newt.testing"/>
+			<item value="mavencalc"/>
+			<item value="com.newt.mavan"/>
+			<item value="com.newt.maven.deploy"/>
+			<item value="com.newt.maven"/>
+			<item value="com.newt"/>
+			<item value="mythirddemos"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

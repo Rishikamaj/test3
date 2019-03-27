@@ -1,0 +1,9 @@
+127.0.0.1 - - [12/Sep/2018:18:19:07 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [12/Sep/2018:18:49:04 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:49:05 +0530] "GET /MyServletDemo/NewFile.html HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:49:09 +0530] "GET /MyServletDemo/FirstServlet HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:49:36 +0530] "GET /MyServletDemo/NewFile.html HTTP/1.1" 200 255
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:49:45 +0530] "GET /MyServletDemo/FirstServlet HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:50:43 +0530] "GET /MyServletDemo/NewFile.html HTTP/1.1" 200 256
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:50:46 +0530] "GET /MyServletDemo/FirstServlet HTTP/1.1" 200 48
+0:0:0:0:0:0:0:1 - - [12/Sep/2018:18:50:53 +0530] "GET /MyServletDemo/FirstServlet HTTP/1.1" 200 48
